@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+}
+
+.image-container {
+    display: inline-block; 
+    text-align: center;
+    margin: 20px 4px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image-container p {
+    margin-top: 2px;
+}
+
+.information_page {
+    display: flex;
+    justify-content: center;
+}
+.accordion {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    background: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: left; /* Spaces out logo and links */
+    background-color: white;
+    margin: 0;
+    width: 100vw; /* Full viewport width */
+    height: 60px; /* Adjust navbar height */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensures navbar stays on top */
+    padding: 0 20px; /* Adds spacing inside the navbar */
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+    border-bottom: 2px solid black;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+img.logo {
+    height:50px;
+    width: 50px;
+}
